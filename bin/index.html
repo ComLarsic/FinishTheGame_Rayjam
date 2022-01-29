@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <canvas id="canvas"></canvas>
+        <script async type="text/javascript" src="RayJam.js"></script>
+
+        <script>
+            var Module = {
+              print: (function(text) {
+                if (text !== undefined) {
+                    console.log(text);
+                }
+              })(),
+              print_err: (function(text) {
+                if (text !== undefined) {
+                    alert(text);
+                }
+              })(),
+              canvas: document.getElementById('canvas')
+            };
+        </script>
+    </body>
+</html>
